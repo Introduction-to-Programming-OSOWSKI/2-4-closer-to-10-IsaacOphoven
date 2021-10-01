@@ -7,7 +7,7 @@ def close10(x,y):
     elif abs(x - 10) > abs(y - 10):
         return y
     else:
-        return both
+        return 0
 
-print(close10(5 , 14))
+print(close10(5 , 15))
 
